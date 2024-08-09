@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>zerodha landing page</title>
+        <link href="https://fonts.googleapis.com/css?family=Inter:400,500" rel="stylesheet">
+        <style>
+            .sign-up-button:hover {
+                background-color: #2f2e2e;
+                color:white; /* New color on hover */
+            }
+            .sign-up-button{
+                padding: 10px 30px; display: inline-block; background-color: rgb(56,126,209); color: white; text-align: center; border-radius: 3px; line-height: 1.2em; cursor: pointer; box-sizing: border-box; border: 1px solid rgba(0,0,0,0); font-size: 20px; transition: background-color 0.01s ease;
+                margin-top: 1px;
+                z-index: 100;
+            }
+            .head-row-stuff{
+                display: flex;
+                justify-content: space-between; /* Evenly space out the items */
+                align-items: center; /* Vertically center the items */
+                margin: 0 10px; color: #666; font-size: 14.4px; font-family: Inter, serif;
+            }
+            .head-row-stuff p{
+                margin: 0 24px; /* Apply margin to each item for consistent spacing */
+                cursor: pointer;
+            }
+            .nav-bar-icon{
+                margin-left: 15px;
+                margin-right: 300px;
+            }
+            .header-sec{
+                height: 70px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 100;
+                background-color: white;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-bottom-color:rgb(241, 240, 240);
+                z-index: 100;
+            }
+            .main-content{
+                display: inline-block;
+                align-items: center;
+                border-bottom-style: none;
+                border-left-style :none;
+                border-right-style: none;
+                color : rgb(66, 66, 66);
+                overflow-clip-margin: content-box;
+                overflow-x :clip;
+                overflow-y :clip;
+                margin-top: 150px;
+                -webkit-font-smoothing :antialiased;
+                margin-bottom:25px;
+                shape-outside: margin-box;/* Set a specific width */
+                width: 721px;
+                max-height:341.1 px;
+                z-index: 200; /* Set a specific height */
+            }
+        </style>
+    </head>
+<body>
+    <div class="header-sec">
+        <div style="margin-left: 200px; margin-right: 400px; margin-top: 20px; margin-bottom: 20px;">
+            <img width="130" height="18" src="logo.png" />
+        </div>
+        <div class="head-row-stuff">
+                <p>
+                    Signup
+                </p>
+                <p>
+                    about
+                </p>
+                <p>
+                    Products
+                </p>
+                <p>
+                    Pricing
+                </p>
+                <p>
+                    Support
+                </p>  
+        </div>
+        <div class="nav-bar-icon">
+            <img width="30px" height"10px" src="nav-bar-icon.png">
+        </div>
+    </div>
+    <div><center>
+        <img class="main-content" src="landing.png"/></center>
+    </div>
+    
+    <div>
+        <center>
+            <h1 style="display: block; color: rgb(66,66,66); font-family: Inter, serif;margin-top: 50px;margin-bottom:0px;font-size: 44px;font-weight: 500;line-height: 55px;text-align: center;text-size-adjust: 100%;">Invest in everything</h1>
+            <p><h5 style="color: rgb(66,66,66); font-family: Inter, serif; font-size:20px; font-weight: 400; margin-bottom: 20px;height: 68px;margin-block-start: 10px;
+                margin-bottom :20px;">
+                Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
+            </h5></p>
+            <button class="sign-up-button">
+                Sign up now
+            </button>
+        </center>
+    </div>
+</body>     
+</html>
